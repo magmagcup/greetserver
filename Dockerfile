@@ -1,4 +1,3 @@
-
 FROM node
 
 RUN git clone \
@@ -6,6 +5,5 @@ RUN git clone \
 WORKDIR /greetserver
 
 RUN npm install
-EXPOSE 8080
+EXPOSE 9000
 CMD ["npm", "start"]
-
